@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MonthlyBudgetPlanner.jnlp">
+  <information>
+    <title>MonthlyBudgetPlanner</title>
+    <vendor>iftekher</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MonthlyBudgetPlanner.jar" size="13758" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MonthlyBudgetPlanner" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="monthlybudgetplanner.MonthlyBudgetPlanner"  name="MonthlyBudgetPlanner" />
+  <update check="always"/>
+</jnlp>
